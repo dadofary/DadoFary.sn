@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="tableau.css">
+		<title>LES TABLEAUX</title>		
+	</head>
+	<body>
+		<table>
+			<caption>Notes des élèves</caption>
+			<tr>
+				<th>Nom</th>
+				<th>Prenom</th>
+				<th>Maths</th>
+				<th>Francais</th>
+				<th>Anglais</th>
+			</tr>
+			<tr>
+				<td>Dia</td>
+				<td>Abdoulaye</td>
+				<td>12</td>
+				<td>18</td>
+				<td>09</td>
+			</tr>
+			<tr>
+				<td>Fall</td>
+				<td>Astou</td>
+				<td>08</td>
+				<td>19</td>
+				<td>16</td>
+			</tr>
+			<tr>
+				<td>Ndiaye</td>
+				<td>Fama</td>
+				<td>16</td>
+				<td>13</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>Faye</td>
+				<td>Tidiane</td>
+				<td>14</td>
+				<td>15</td>
+				<td>17</td>
+			</tr>
+		</table>
+		<h1>Les Types de Films</h1>
+		<div class="tableau">
+		<table class="gauche">
+			<caption>Colspan</caption>
+   			<tr>
+		       	<th>Titre du film</th>
+  			    <th>Pour enfants ?</th>
+       			<th>Pour adolescents ?</th>
+   			</tr>
+   			<tr>
+       			<td>Massacre à la tronçonneuse</td>
+       			<td >Non, trop violent</td>
+       			<td>Oui</td>
+   			</tr>
+   			<tr>
+       			<td>Les bisounours font du ski</td>
+       			<td>Oui, adapté</td>
+       			<td>Pas assez violent...</td>
+  			</tr>
+  			<tr>
+       			<td>Lucky Luke, seul contre tous</td>
+       			<td colspan="2">Pour toute la famille !</td>
+   			</tr>
+		</table>
+		<br> <br>
+		<table class="droite">
+			<caption>Rowspan</caption>
+ 			<tr>
+       			<th>Titre du film</th>
+       			<td>Massacre à la tronçonneuse</td>
+       			<td>Les bisounours font du ski</td>
+       			<td>Lucky Luke, seul contre tous</td>
+   			</tr>
+  		<tr>
+       			<th>Pour enfants ?</th>
+       			<td>Non, trop violent</td>
+       			<td>Oui, adapté</td>
+       			<td rowspan="2">Pour toute la famille !</td>
+   		</tr>
+   		<tr>
+       			<th>Pour adolescents ?</th>
+       			<td>Oui</td>
+       			<td>Pas assez violent...</td>
+	   </tr>
+	   </table>
+	   </div>
+	</body>
+</html>
